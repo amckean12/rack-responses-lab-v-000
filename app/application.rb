@@ -5,10 +5,10 @@ class Application
     hour = time.hour
     noon = 12
     if hour > noon
-       resp.write "Good Afternoon!" 
+       resp.write "Good Afternoon!"
     if hour = noon || hour < noon
-       resp.write "Good Morning!" 
-    end 
+       resp.write "Good Morning!"
+    end
     resp.finish
   end
 end
