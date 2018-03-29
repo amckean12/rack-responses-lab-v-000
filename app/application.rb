@@ -6,7 +6,4 @@ class Application
     hour > 12 ? resp.write "Good Afternoon!" : resp.write "Good Morning!"
     resp.finish
   end
-
-
-
 end
