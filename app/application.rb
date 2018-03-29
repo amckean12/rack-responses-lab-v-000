@@ -6,7 +6,7 @@ class Application
     noon = 12
     if hour > noon
        resp.write "Good Afternoon!"
-    if hour = noon && hour < noon
+    if hour = noon
        resp.write "Good Morning!"
     end
     resp.finish
