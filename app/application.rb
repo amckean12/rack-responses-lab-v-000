@@ -3,7 +3,7 @@ class Application
     resp = Rack::Response.new
     time = Time.new
     noon = 12
-    resp.write "#{hour}"
+    resp.write "#{time}"
     resp.finish
   end
 end
