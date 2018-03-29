@@ -4,7 +4,7 @@ class Application
     time = Time.new
     hour = time.hour
     noon = 12
-    puts "#{hour}"
+    resp.write "#{hour}"
     resp.finish
   end
 end
