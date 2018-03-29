@@ -1,4 +1,4 @@
-class Application 
+class Application
   def call
     resp = Rack::Response.new
     time = Time.new
@@ -6,5 +6,7 @@ class Application
 
     hour > 12 ? resp.write "Good Afternoon!" : resp.write "Good Morning!"
   end
-  
+
+  resp.finish
+
 end
