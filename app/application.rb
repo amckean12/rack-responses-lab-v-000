@@ -4,11 +4,7 @@ class Application
     time = Time.new
     hour = time.hour
     noon = 12
-    if hour > noon
-       resp.write "Good Afternoon!"
-    elsif hour < noon || hour = noon
-       resp.write "Good Morning!"
-    end
+    puts "#{hour}"
     resp.finish
   end
 end
